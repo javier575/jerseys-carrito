@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="pag5.css">
+</head>
+<body>
+    <header>
+        <h1>NFL</h1>
+        <marquee>!Aqui encontraras las camisetas de tus deportes favoritos y equipos favoritos¡ 🚀</marquee>
+        <nav>
+            <ul>
+                <ul>
+                    <li><a href="pag1.HTML">INICIO</a></li>
+                    <li><a href="pag2.html">NFL</a></li>
+                    <li><a href="pag3.html">MLB</a></li>
+                    <li><a href="pag4.html">FUTBOL EUROPEO</a></li>
+                    <li><a href="pag5.html">CARRITO</a></li>
+                </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="cart-item">
+            <img src="RM.jpg" alt="Jersey Futbol europeo" width="200">
+            <div>
+                <h3>Jersey REAL MADRID (VISITA)</h3>
+                <p>$1,800.00 MX</p>
+            </div>
+            <button class="remove-btn">Eliminar</button>
+        </div>
+        <div class="cart-item">
+            <img src="cm.avif" alt="Jersey NFL" width="200">
+            <div>
+                <h3>Jersey Dallas Cowboys</h3>
+                <p>$1,900.00</p>
+            </div>
+            <button class="remove-btn">Eliminar</button>
+        </div>
+    <h2>Carrito de Compras</h2>
+    <div class="carrito">
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">3,700.00 MX</span></p>
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 JERSEYS-MANIA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
